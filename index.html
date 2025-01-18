@@ -3,12 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paulo</title>
+    <title>Pablo</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
+        background-color: black;
+    }
+    div{
+        margin: 4px;
+        border-radius:2%;
+        width: 600px;
+        height: 550px;
+        text-align: center;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+        transition: all 0.3s ease;
+        border: 2px solid aliceblue;
+    }
+    div:hover{
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); 
+        transform: scale(1.05); 
+    }
+    img{
+        width: 200px;
+    }
+    h1{
+        font-family: Arial, sans-serif;
+        color: aliceblue;
+    }
+    h4,h5{
+        margin: 10px;
+        font-family: Arial, sans-serif;
+        color:cadetblue;
+    }
+    .logos{
+        width: 50px;
+        transition: all 0.3s ease;
+    }
+    .logos:hover{
+        transform: scale(1.5); 
+    }
+    
+
+</style>
 <body>
-      <br><br><br>
-      <div class="container" style="border: 2px solid black">
-           <img src="./img/logo.png" style="width: 200px;">
-           <br>
-      </div>      
+    <div>
+        <img src="./img/Logoblanco.png" alt="pau">
+        <h1>Soy Pablo</h3>
+        <h4>"Soy Paulo, un apasionado por la tecnología y la programación. Me dedico a crear soluciones innovadoras que transforman ideas en realidad a través de código limpio y eficiente. Siempre en constante aprendizaje, explorando nuevas tecnologías y afrontando desafíos con creatividad y dedicación. Si puedes imaginarlo, yo puedo programarlo."</h1>
+        <br>
+        <h5>Perfil en GitHub:<h5 style="color: aqua;">PauloMtz0</h5></h5>
+        <a href="https://www.instagram.com/paulo_mtzotz?igsh=c2JxZjJoM3Fvbnlx&utm_source=qr"><img class="logos"src="./img/insta.png" alt=""></a>
+        <a href="https://www.instagram.com/paulo_mtzotz?igsh=c2JxZjJoM3Fvbnlx&utm_source=qrhttps://www.facebook.com/share/18RR3go9WZ/?mibextid=wwXIfr"><img class="logos"src="./img/fb.jpg" alt=""></a>
+    </div>
 </body>
 </html>
